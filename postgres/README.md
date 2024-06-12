@@ -1,4 +1,4 @@
-### Client not return expected data from a given table or row even though the data exists in the Supabase web interface.
+### React / NextJS / Client not returning expected data from a given table or row even though the data exists in the Supabase web interface.
 
 - Check the RLS policies on the table or view (or one of the joined tables).
 
