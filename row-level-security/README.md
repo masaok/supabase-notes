@@ -1,3 +1,7 @@
+For full security notes, see https://github.com/masaok/security-notes
+
+## Supabase RLS
+
 Supabase's Row-Level Security (RLS) is not a replacement for an API but rather a security feature that works alongside your API to control data access at the database level.
 
 **Row-Level Security (RLS)** is a feature in PostgreSQL (and thus in Supabase, which is built on PostgreSQL) that allows you to define policies to control which rows can be accessed or modified by different users. RLS can be very powerful in ensuring that users can only see or modify data they are authorized to, directly in the database.
