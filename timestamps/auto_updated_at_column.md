@@ -1,11 +1,17 @@
 ### Auto update `updated_at` column
 
+Add the columns:
+
 ```sql
 -- Add new columns to table named `created_at` and `updated_at`
 ALTER TABLE YOUR_TABLE_NAME
 ADD COLUMN created_at timestamptz default now(),
 ADD COLUMN updated_at timestamptz;
+```
 
+Modify `updated_at` to auto update:
+
+```sql
 -- Enable MODDATETIME extension
 create extension if not exists moddatetime schema extensions;
 
